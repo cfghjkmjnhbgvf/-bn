@@ -6,6 +6,7 @@ const Canvas = require("canvas");
 const fs = require("fs");
 const moment = require("moment");
 const dateFormat = require("dateformat");
+console.log("BOT ONLINE");
 
 var prefix = "$";
 
