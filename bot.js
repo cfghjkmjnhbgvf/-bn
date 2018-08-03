@@ -488,7 +488,7 @@ message.channel.send(id)
                 if(message.content === prefix + "inv") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:arrow_right: Invite Cozmo Bot!**")
-                    .setURL("https://discordapp.com/oauth2/authorize?client_id=473110156700549131&permissions=2080898225&scope=bot");
+                    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=474733285440749570&permissions=8&scope=bot");
                    message.channel.sendEmbed(embed);
                   }
 });
