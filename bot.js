@@ -40,10 +40,10 @@ client.on('message',async message => {
   if(!message.guild.member(client.user).hasPermissions(['MANAGE_CHANNELS','MANAGE_ROLES_OR_PERMISSIONS'])) return message.reply(':x: **ليس معي الصلاحيات الكافية**');
 
   let args = message.content.split(" ").slice(1).join(" ")
-                   if (!args[1] || args[1 == " "]) return message.reply("يرجى كتابه اسم الشات الكتابي")
+                   if (!args[1] || args[1 == " "]) return message.reply("يرجى كتابه اسم الروم ")
   message.guild.createChannel(`args [ ${message.guild.members.filter(m => m.voiceChannel).size} ]` , 'voice').then(c => {
     console.log(`Voice online channel setup for guild: \n ${message.guild.name}`);
-               message.channel.sendMessage(`✅ تـم إنـشـاء شـات كتابي بأسـم **{  ${args}  }**`)
+               message.channel.sendMessage(`✅ تـم إنـشـاء الروم  بأسـم **{  ${args}  }**`)
 
     c.overwritePermissions(message.guild.id, {
       CONNECT: false,
