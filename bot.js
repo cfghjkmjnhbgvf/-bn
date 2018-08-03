@@ -471,7 +471,7 @@ message.channel.send(id)
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/yDHQZhC**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/HQjt6nZ**")
      
      
   message.channel.sendEmbed(embed);
